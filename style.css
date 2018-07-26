@@ -1,0 +1,39 @@
+.maindiv{
+  border: 2px solid black;
+  padding: 2%;
+  font-size: 20px;
+  font-family: verdana;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: row;
+}
+.Leftdiv{
+  border: 2px solid black;
+  padding: 2%;
+  text-align: left;
+  font-size: 20px;
+  font-family: verdana;
+  background-color:oldlace;
+  margin: 10%;
+  text-align: center;
+  width: 60%;
+}
+#name{
+  color: blue;
+}
+.leftdiv img{
+  width: 50%;
+  height:5%;
+  border-radius: 50%
+  border:2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Rightdiv{
+  border: 2px solid black;
+  padding:15%;
+  margin: 10%;
+  background-color: oldlace;
+  width: 100%;
+}
