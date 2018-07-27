@@ -1,0 +1,30 @@
+.parent{
+  border: 2px solid lightblue;
+  padding: 2%;
+  font-size: 20px;
+  display :flex;
+  flex-direction: row;
+}
+
+.child1{
+  border: 2px solid red;
+  padding: 2%;
+  font-size: 24px;
+  margin: 2%;
+  width: 50%
+
+}
+.child2{
+  border: 2px solid red;
+  padding: 2%;
+  font-size: 20px;
+  margin: 2%;
+  width: 50%;
+
+}
+
+a{
+  font-size: 40px;
+  color : brown;
+  word-wrap: break-word;
+}
