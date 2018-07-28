@@ -3,37 +3,149 @@
   padding: 2%;
   font-size: 20px;
   font-family: verdana;
-  background-color: darkgrey;
   display: flex;
   flex-direction: row;
 }
 .Leftdiv{
-  border: 2px solid black;
+  border: 2px solid green;
   padding: 2%;
   text-align: left;
   font-size: 20px;
   font-family: verdana;
-  background-color:oldlace;
-  margin: 10%;
+  background-color:white;
+  margin: 2%;
   text-align: center;
-  width: 60%;
+  width: 30%;
 }
 #name{
   color: blue;
 }
+a{
+  font-size: 40px;
+  color : brown;
+  word-wrap: break-word;
+}
 .leftdiv img{
-  width: 50%;
-  height:5%;
-  border-radius: 50%
-  border:2px solid black;
+  width: 100%;
+  border-radius: 50%;
+  border:1px solid red;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .Rightdiv{
-  border: 2px solid black;
-  padding:15%;
-  margin: 10%;
-  background-color: oldlace;
-  width: 100%;
+  border: 2px solid green;
+  padding:2%;
+  margin: 2%;
+  background-color: white;
+  width: 70%;
+}
+h2,h4{
+  color :tomato;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .maindiv{
+    width: 100%;
+    border: 2px solid black;
+    padding: 2%;
+    font-size: 20px;
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+  }
+  .Leftdiv{
+    border: 2px solid red;
+    padding: 2%;
+    text-align: left;
+    font-size: 20px;
+    font-family: verdana;
+    background-color:white;
+    margin: 2%;
+    text-align: center;
+    width: 90%;
+  }
+
+  .leftdiv img{
+    width: 40%;
+    border-radius: 50%;
+    border:2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Rightdiv{
+    border: 2px solid green;
+    padding:2%;
+    margin: 2%;
+    background-color: skyblue;
+    width: 90%;
+  }
+  h2,h4{
+    color :tomato;
+  }
+  #name{
+    color: blue;
+  }
+  .table1{
+    width: 90%;
+    overflow-x: auto;
+  }
+  a{
+    font-size: 40px;
+    color : brown;
+    word-wrap: break-word;
+  }
+
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .maindiv{
+    border: 2px solid black;
+    padding: 2%;
+    font-size: 20px;
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    font-size: 40px;
+    color : brown;
+    word-wrap: break-word;
+  }
+  .Leftdiv{
+    border: 2px solid red;
+    padding: 2%;
+    text-align: left;
+    font-size: 20px;
+    font-family: verdana;
+    background-color:white;
+    margin: 2%;
+    text-align: center;
+    width: 90%;
+  }
+
+
+  .leftdiv img{
+    width: 40%;
+    border-radius: 50%;
+    border:2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Rightdiv{
+    border: 2px solid green;
+    padding:2%;
+    margin: 2%;
+    background-color: skyblue;
+    width: 90%;
+  }
+  h2,h4{
+    color :tomato;
+  }
+  .table1{
+    width: 80%;
+    overflow-x: auto;
+  }
+
 }

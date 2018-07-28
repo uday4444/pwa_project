@@ -1,0 +1,57 @@
+{"details":{
+  "image":"ironman.jpg",
+  "name":"Uday",
+  "phone":"99498649587",
+  "email":"uday12345678@gmail.com",
+  "address":"Uppal Stadium Block number 4"
+
+},
+"career":{
+  "objective":"To become Succesfull in Data Science"
+
+},
+"education":[
+  {
+  "qualification":"BTech",
+  "institute":"MIC college",
+  "year":"2016-2020",
+  "percentage":"71%"
+},
+{
+  "qualification":"Intermediate",
+  "institute":"Sri chaitanya junior college",
+  "year":"2014-2016",
+  "percentage":"94%"
+},
+{
+"qualification":"10th SSC",
+"institute":"Thrividha High School",
+"year":"2014",
+"percentage":"92%"
+}
+],
+  "technical_skills":[
+  {
+  "title":"Programming languages:",
+  "info":["C,C++,PYTHON,JAVA"]
+},
+{
+"title":"DataBases:",
+"info":["oracle,SQL,mySQL"]
+},
+{
+  "title":"Operating Systems:",
+  "info":["windows,linux,Ubuntu,Dos"]
+}
+],
+"achievements":[
+  {
+    "title":"Prizes",
+    "info":"Got 1st prize in coding at Cambridge University"
+  },
+  {
+    "title":"Other Achievements",
+    "info":"Won more than 100 chicken dinners in PUBG"
+  }
+]
+}
