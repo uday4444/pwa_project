@@ -1,26 +1,53 @@
 .parent{
-  border: 2px solid lightblue;
+  border: 2px solid tomato;
   padding: 2%;
   font-size: 20px;
   display :flex;
   flex-direction: row;
+  background-image: url('bg.jpg');
+  /*background-size: cover;*/
+
 }
 
 .child1{
-  border: 2px solid red;
+  border: 2px solid lightblue;
   padding: 2%;
   font-size: 24px;
   margin: 2%;
-  width: 50%
+  width: 50%;
+  font-style: oblique;
+  font-family: monospace;
+
+}
+.child1 img{
+  width :50%;
+  border-radius: 50%;
+  border: 2px solid tomato;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  box-shadow: 5px 8px 9px black;
+
+
 
 }
 .child2{
-  border: 2px solid red;
+  border: 2px solid lightblue;
   padding: 2%;
   font-size: 20px;
   margin: 2%;
-  width: 50%;
+  width: 40%;
+  font-style: oblique;
+  font-family: monospace;
+  table-layout: fixed;
 
+
+
+
+}
+table{
+  border-collapse: collapse;
+  border:1px solid tomato;
 }
 
 a{
